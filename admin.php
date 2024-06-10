@@ -22,7 +22,7 @@ $links = $query->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <h1>Admin - Daftar Link dengan Status dan Catatan</h1>
     <a href="add.php">Tambah Link</a> |
-    <a href="logout.php">Logout</a>
+    <a href="logout.php">Logout</a> | <a href="change_password.php">Change Password</a>
     <table>
         <thead>
             <tr>
