@@ -24,14 +24,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'serversmkn4@gmail.com'; // Ganti dengan alamat email Gmail Anda
-        $mail->Password = 'qissoothncmmvwaq'; // Ganti dengan sandi aplikasi atau sandi email Gmail Anda
+        $mail->Username = 'serxx4@gmail.com'; // Ganti dengan alamat email Gmail Anda
+        $mail->Password = 'qissooth-dari-gmail-app'; // Ganti dengan sandi aplikasi atau sandi email Gmail Anda
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Pengaturan Email
-        $mail->setFrom('serversmkn4@gmail.com', 'aplikasi info'); // Ganti dengan alamat email dan nama pengirim
-        $mail->addAddress('serversmkn4@gmail.com', 'admin'); // Ganti dengan alamat email penerima yang sama
+        $mail->setFrom('servcdsd@gmail.com', 'aplikasi info'); // Ganti dengan alamat email dan nama pengirim
+        $mail->addAddress('servedfsd@gmail.com', 'admin'); // Ganti dengan alamat email penerima yang sama
 
         $mail->isHTML(true);
         $mail->Subject = 'Pesan Baru dari Form Kontak';
