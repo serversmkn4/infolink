@@ -3,3 +3,8 @@
         "phpmailer/phpmailer": "^6.9"
     }
 }
+
+{
+    "require": { "ext-pdo_sqlite": "*" 
+    }
+}
